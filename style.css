@@ -8,6 +8,10 @@ html, body {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {box-sizing: border-box;}
+a{
+  text-decoration: none;
+  color: white;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -87,16 +91,18 @@ body.dark h1, body.dark .support a {color: #fff;}
 
 
 /* footer styles */
+
 .main-footer {
     background: black;
     color: #fff; 
     /* display: flex;
     justify-content: space-between; */
     /* filter: brightness(0.2); */
-    margin-top: 20px;
+    margin-top: 10px;
     }
     .heading_heading-sm_text-lt{
-        font-size: 3.2rem;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
     }
     .footer_social{
         position: relative;
@@ -106,7 +112,7 @@ body.dark h1, body.dark .support a {color: #fff;}
     .main-footer__upper {
         display: flex;
         justify-content: space-between;
-        padding: 8rem 0; 
+        padding: 1rem 0; 
     }
         @media only screen and (max-width: 56.25em) {
         .main-footer__upper {
@@ -119,7 +125,7 @@ body.dark h1, body.dark .support a {color: #fff;}
     }
         @media only screen and (max-width: 56.25em) {
         .main-footer__row-1 {
-            margin-bottom: 5rem; } }
+            margin-bottom: 1rem; } }
     .main-footer__row-2 {
         width: 30%;
         order: 1;
@@ -129,9 +135,9 @@ body.dark h1, body.dark .support a {color: #fff;}
         .main-footer__row-2 {
             width: 100%; } }
     .main-footer__short-desc {
-        margin-top: 2rem;
+        margin-top: 1rem;
         color: #eee;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         line-height: 1.7; 
     }
     .main-footer__social-cont {
