@@ -1,12 +1,22 @@
-.t-center{
+.text-center{
     text-align: center;
-}
-
-.bg-red{
-    background: #ff0000;
-}
-
-.mx-auto{
-    margin: 0 auto;
-    
-}
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
