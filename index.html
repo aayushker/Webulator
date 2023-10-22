@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webulator</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./favicon/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webulator</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utils.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="t-center">Webulator</h1>
-        <p>A simple calculator anywhere and everywhere.</p>
-    </header>
+  <header>
+    <h1 class="t-center">Webulator</h1>
+    <div>
+      <input type="checkbox" class="checkbox" id="checkbox">
+      <label for="checkbox" class="checkbox-label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <span class="ball"></span>
+      </label>
+    </div>
+  </header>
+  <p>A simple calculator anywhere and everywhere.</p>
   <div class="container flex flex-col items-center mx-auto m-w-20">
     <div class="row">
-      <input class="input" type="text"/>
+      <input class="input" type="text" />
     </div>
     <div class="row">
       <button class="button">C</button>
@@ -51,54 +63,39 @@
       <button class="button">-</button>
     </div>
   </div>
+  </div>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1 footer_social">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Socials</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aayushker/">
+              <img class="main-footer__icon" src="./icons/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/aayushker/">
+              <img class="main-footer__icon" src="./icons/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/aayushker">
+              <img class="main-footer__icon" src="./icons/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/aayushkersingh">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./icons/insta-ico.png" alt="icon" />
+            </a>
+          </div>
         </div>
-        <footer class="main-footer">
-            <div class="main-container">
-              <div class="main-footer__upper">
-                <div class="main-footer__row main-footer__row-1 footer_social">
-                  <h2 class="heading heading-sm main-footer__heading-sm">
-                    <span>Socials</span>
-                  </h2>
-                  <div class="main-footer__social-cont">
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aayushker/">
-                      <img
-                        class="main-footer__icon"
-                        src="./icons/linkedin-ico.png"
-                        alt="icon"
-                      />
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/aayushker/">
-                      <img
-                        class="main-footer__icon"
-                        src="./icons/github-ico.png"
-                        alt="icon"
-                      />
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/aayushker">
-                      <img
-                        class="main-footer__icon"
-                        src="./icons/twitter-ico.png"
-                        alt="icon"
-                      />
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://instagram.com/aayushkersingh">
-                      <img
-                        class="main-footer__icon main-footer__icon--mr-none"
-                        src="./icons/insta-ico.png"
-                        alt="icon"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="main-footer__row_main footer__row-2">
-                  <h4 class="heading_heading-sm_text-lt">Aayushker Singh</h4>
-                  <p class="main-footer__short-desc">
-                    An enthusiastic <strong>Frontend WebDeveloper</strong>.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </footer>
-    <script src="script.js"></script>
+        <div class="main-footer__row_main footer__row-2">
+          <h4 class="heading_heading-sm_text-lt">Aayushker Singh</h4>
+          <p class="main-footer__short-desc">
+            An enthusiastic <strong>Frontend WebDeveloper</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
